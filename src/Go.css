@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  }
+  .app1{
+    width: 100%;
+    height: 700px;
+    
+  }
+  .navbarfull{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+
+  }
+  .inputbar{
+    border: 0;
+    width: 600px;
+    background-color: rgb(238, 236, 236);
+    height: 50px;
+    
+  }
+  .icon{
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    
+  }
+.inputfull{
+    width: 600px;
+   
+    height: 50px;
+    display: flex;
+}
+.navbutton{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(238, 236, 236);
+    border: 1px solid grey solid black;
+}
+.buttonnav{
+    width: 380px;
+    height: 60px;
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navred{
+    color: red;
+}
+.navgreen{
+    color: rgb(3, 126, 3);
+}
+.navtrade{
+    font-size: 15px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navwhite{
+    color: white;
+}
+/* ...............................................navbar..................................... */
+
+
+.featuretag{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.firstbodyfull{
+  
+    width: 100%;
+    height: 120px;
+}
+.textbody{
+    width: 97.6%;
+    height: 50px;
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2rem;
+    font-weight: 700;
+    color: rgb(223, 120, 120);
+}
+.bodyphotos{
+    width: 100px;
+    height: 50px;
+}
+.photobody{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(208, 252, 252);
+    margin-top: 5px;
+    
+}
+
+/* ..............................................firstbody,,,,,,,,,,,,,,,,,,,,,, */
+
+
+#whatif{
+   
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+  }
+  #fullsidenavbar{
+    background-color:rgb(7, 7, 92) ;
+    width: 250px;
+    height: 700px;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: start;
+
+    
+  }
+  #mani{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 40px ;
+    align-items: center;
+    
+    border-bottom: 1px solid grey solid black;
+    
+  }
+  #messagnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  #lastbutton{
+   
+    width: 40px;
+    height: 600px;
+    
+    display: flex ;
+    align-items: center;
+    width: max-content;
+
+    z-index: 5;
+    left: 0;
+    position: fixed;
+  }
+  #mainsidefullnavbar{
+    display: flex;
+    
+    width: 100%;
+    height: 600px;
+  
+  }
+  #discussionfont{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  #marketstoriesdiv{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+  }
+  #sentiment{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+  }
+  #marketlab{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+  }
+  #sectortab{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+  }
+  .iconcolorchange{
+    color: white;
+    
+  }
+  #iconcolorchange1{
+    color: white;
+   
+  }
+  .disscusionform{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(216, 46, 46);
+  }
+  .disscussiondiv{
+    width: 100%;
+    background-color: rgb(245, 241, 235);
+    height: 700px;
+    display: flex;
+    
+    /* justify-content: space-evenly;
+    align-items: center; */
+  }
+.disscussiondiv1{
+    width: 50%;
+    height: 50px;
+   
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    flex-direction: column;
+   
+}
+.disscussiondiv2{
+    width: 50%;
+    height: 700px;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#barbutton{
+background-color: rgb(7, 7, 92);
+height: 60px;
+color: white;
+width: 30px;
+}
+
+/* ..........................last */
+.imagediv{
+    
+    width: 45%;
+    height: 180px;
+    background-image: url(Components/Secondbody/building/Borough-Market-the-Shard-and-the-Pub-_sss.jpg);
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   border-radius: 20px;
+   color: white;
+}
+.imagediv2{
+    
+    width: 45%;
+    height: 180px;
+    background-image: url(Components/Secondbody/building/j.jpg);
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   border-radius: 20px;
+   color: white;
+}
+.imagaefulldiv{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 220px;
+   
+
+}
+.spandiv{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 60px;
+    font-size: 13px;
+    border-radius: 20px;
+
+}
+
+
+
+/* ...........................fourm */
+
+
+.buttonsectordiv{
+    width: 72%;
+    height: 50px;
+    border: 0  ;
+    box-shadow: 0 0 9px   grey;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4px;
+    background-color: rgb(252, 250, 250);
+    
+    
+
+}
+.buttonbigcontain{  
+    width: 100%;
+ 
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.searchinput{
+    border-radius: 15px;
+    border: 0;
+    background-color: rgb(238, 236, 236);
+    background-image: url(Components/Secondbody/building/logosss/pngwing.com\ \(4\).png);
+    background-size: 18px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    height: 25px;
+    width: 110px;
+    box-shadow: 0 0 6px black;
+    
+
+}
+.sectorbutton{
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    background-color: rgb(160, 37, 37);
+    
+    width: 60px;
+    height: 20px;
+}
+.sectorbutton1{
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    background-color: rgb(52, 35, 212);
+    width: 60px;
+    height: 20px;
+}
+.sectorbutton2{
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    background-color: rgb(221, 187, 35);
+    width: 60px;
+    height: 20px;
+}
+.infibeambackground{
+    width: 100%;
+    height: 700px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.infibeamimgdiv{
+    width: 72%;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    box-shadow: 0 0 9px;
+    border: 0 ;
+    border-radius: 5px;
+    background-color: rgb(252, 250, 250);
+
+}
+.infibeamcomentdiv{
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.comment1{
+    width: 70%;
+    height: 30px;
+    
+ 
+    display: flex;
+    justify-content: start;
+    align-items:center ;
+}
+.comment2{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+}
+.comment2new{
+  width: 60%;
+  height: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
+  text-align: center;
+  
+
+}
+.comment3{
+    width: 80%;
+    height: 25px;
+    
+     display: flex;
+     justify-content: space-around;
+}
+.comment3subdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.commentallfontfam{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+   
+}
+.commentlikeall{
+   
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 140px;
+    flex-direction: column;
+    
+    border: 0;
+   border-radius: 10px;
+   
+   
+    
+}
+.commentlikeall1{
+    
+    width: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    flex-direction: column;
+    box-shadow: 0 0 9px;
+    border: 0;
+   border-radius: 4px;
+   background-color: rgb(252, 250, 250);
+   
+   
+}
+.secondcommentlike{
+
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.sectorbuttonnew{
+  margin-left: 10px;
+  border-radius: 15px;
+    border: 0;
+    color: white;
+    background-color: rgb(160, 37, 37);
+    
+    width: 60px;
+    height: 20px;
+}
+
+
+
+/* ........................................................mediaQuerycss................... */
+
+@media (max-width: 500px){
+  *{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .goindia{
+    width: 120px;
+    height: 60px;
+
+  }
+  .inputbar{
+    width: 130px;
+    height: 45px;
+  }
+  .icon{
+    width: 40px;
+    height: 45px;
+  }
+  .contact{
+    font-size: 10px;
+  }
+  .navbutton{
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .navbarfull{
+    
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+  }
+  .inputfull{
+   padding-left: 5px;
+  
+   width: 400px;
+  }
+  /* ................................ */
+
+  .navtrade{
+    font-size: 5px;
+  }
+  .firstbodyfull{
+    height: 140px;
+
+  }
+  .bodyphotos{
+    width: 30px;
+    height: 60px;
+  }
+  .photobody{
+    height: 80px;
+  }
+  
+  .disscussiondiv{
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+  }
+  .disscussiondiv1{
+    height: 800px;
+    width: 100%;
+  }
+  .buttonbigcontain{
+    margin-top: 10px;
+    width: 100%;
+  }
+  .buttonsectordiv{
+    width: 95%;
+  }
+  .infibeamimgdiv{
+    width: 95%;
+  }
+  .commentlikeall1{
+    width: 95%;
+  }
+  .infibeambackground{
+    height: 400px;
+  }
+  .secondcommentlike{
+    height: 180px;
+  }
+
+  .disscussiondiv2{
+    height: 700px;
+    width: 100%;
+  }
+  .spandiv{
+    font-size: 11px;
+  }
+  .app1{
+    height: 600px;
+  
+  }
+
+}
